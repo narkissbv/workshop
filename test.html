@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script type="text/javascript" src="wordcloud2.js"></script>
+  </head>
+  <body>
+    <div id="wordcloud"></div>
+    <script>
+
+      var arr6=[ 
+        ["Pear", "9"],
+        ["Grape", "9"],
+        ["Pine", "4"], 
+        ["Banana", "6"],
+        ["Lemon", "9"],
+        ["Parigi", "5"],
+        ["Apple", "5"],
+        ["Mear", "4"],
+        ["Torino", "4"],
+        ["Mescola", "8"], 
+        ["Gigi", "6"],
+        ["Roma", "9"],
+        ["Empoli", "5"],
+        ["Mela", "5"],
+        ["Alessandro", "9"],
+        ["Imola", "4"],
+        ["Hp", "4"], 
+        ["Harry", "6"],
+        ["Potter", "9"],
+        ["Amsterdam", "5"],
+        ["Como", "5"]
+      ]; 
+
+      var options = { 
+      list : arr6
+    }
+
+    WordCloud(document.getElementById('wordcloud'), options);
+    </script>
+  </body>
+</html>
